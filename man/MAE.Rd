@@ -1,16 +1,16 @@
-\name{RMSE}
-\alias{RMSE}
+\name{MAE}
+\alias{MAE}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~function to do ... ~~
-calculates the Root Mean Square Error
+calculates the  Mean Absolute Error
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
-This function calculates the Root Mean Square Error for a lm object
+This function calculates the Mean Absolute Error for a lm object
 }
 \usage{
-RMSE(x)
+MAE(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -46,7 +46,7 @@ RMSE(x)
 \examples{
 data("mtcars")
 x <- lm(mpg~wt, mtcars)
-RMSE(x)
+MAE(x)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
