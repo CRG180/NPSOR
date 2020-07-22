@@ -15,7 +15,7 @@ split_df(df,p)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{df = dataframe }
-  \item{p= prop of train data}{
+  \item{p = prop of train data }{
 %%     ~~Describe \code{x} here~~
 }
 }
