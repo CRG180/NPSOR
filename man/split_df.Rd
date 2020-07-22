@@ -52,6 +52,6 @@ split_df(mtcars,.8)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd5 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd6 }% __ONLY ONE__ keyword per line
+\keyword{ ~split }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~train}% __ONLY ONE__ keyword per line
 
