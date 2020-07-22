@@ -14,8 +14,7 @@ split_df(df,p)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{df= dataframe}
-  \item{p= The proportion to be test data numeric value 0-1, defualt is .8 }{
+  \item{df = dataframe }{
 %%     ~~Describe \code{x} here~~
 }
 }
