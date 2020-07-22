@@ -3,18 +3,19 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~function to do ... ~~
-Split Train/Test Dataframes
+Makes training and testing data
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
-This function splits data into test and train data. The output is a list of with a train dataframe and test dataframe.
+This function splits data into test and train data
 }
 \usage{
 split_df(df,p)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{df = dataframe }{
+  \item{df = dataframe }
+  \item{p= prop of train data}{
 %%     ~~Describe \code{x} here~~
 }
 }
@@ -45,10 +46,12 @@ Charles Gallagher
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-split_df(mtcars, .8)
+data("mtcars")
+split_df(mtcars,.8)
 
-
+}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~kwd5 }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~kwd6 }% __ONLY ONE__ keyword per line
+
