@@ -10,8 +10,8 @@ Let’s see how this goes maybe this will be kind of cool !
 
 ## Linear Regression Error
 
-**Root Mean Square Error** `RMSE(x)` x can be a `lm` object or a numeric vector of residuals   
-**Mean Square Error** `MSE(x)` x can be a `lm` object or a numeric vector of residuals
+**Root Mean Square Error** `RMSE(x)` x can be a `lm` object or a numeric vector of residuals <br>   
+**Mean Square Error** `MSE(x)` x can be a `lm` object or a numeric vector of residuals <br>
 **Mean Absolute Error** `MAE(x)` x can be a `lm` object or a numeric vector of residuals
 
 ## Train and Test Data Split 
