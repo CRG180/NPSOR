@@ -7,7 +7,7 @@ calculates the Root Mean Square Error
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
-This function calculates the Root Mean Square Error for a lm object
+This function calculates the Root Mean Square Error for a lm object or numeric object
 }
 \usage{
 RMSE(x)
