@@ -2,10 +2,10 @@
 MAE <- function(model) {
   if(class(model)=="lm"){
     error <- model$residuals
-    mean(abs(error))
+    return(mean(abs(error)))
   }
   if(class(model)=="numeric"){
     error <- model
-    mean(abs(error))
+    return(mean(abs(error)))
   }
    }

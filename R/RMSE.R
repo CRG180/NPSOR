@@ -2,10 +2,10 @@
 RMSE <- function(model) {
   if(class(model)=="lm"){
     error <- model$residuals
-    sqrt(mean(error^2))
+    return(sqrt(mean(error^2)))
   }
   if(class(model)=="numeric"){
     error <- model
-    sqrt(mean(error^2))
+    return(sqrt(mean(error^2)))
   }
 }
