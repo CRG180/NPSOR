@@ -19,10 +19,17 @@ Let’s see how this goes maybe this will be kind of cool !
 
 ## Example 
 `library(NPSOR)  
+
 mtcars2 <-split_df(mtcars,.8)
+
 train_model <- lm(mpg~., mtcars2$train)
+
 test <- predict(train_model, mtcars2$test)
+
 error <- (test-mtcars2$test$mpg)
+
 test_model <-lm(mpg~., mtcars2$train)
+
 RMSE(train_model) # Training RMSE
+
 RMSE(error) #Test RMSE `
