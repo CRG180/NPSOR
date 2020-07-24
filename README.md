@@ -18,18 +18,18 @@ Let’s see how this goes maybe this will be kind of cool !
 `split_df(df, p = .8)` `df`= a dataframe, `p`= proportion to be training data. Output is list with two data frames: `$train` and`$test`  
 
 ## Example 
-`library(NPSOR)  
+`library(NPSOR)  `
 
-mtcars2 <-split_df(mtcars,.8)
+`mtcars2 <-split_df(mtcars,.8)`
 
-train_model <- lm(mpg~., mtcars2$train)
+`train_model <- lm(mpg~., mtcars2$train)`
 
-test <- predict(train_model, mtcars2$test)
+`test <- predict(train_model, mtcars2$test)`
 
-error <- (test-mtcars2$test$mpg)
+`error <- (test-mtcars2$test$mpg)`
 
-test_model <-lm(mpg~., mtcars2$train)
+`test_model <-lm(mpg~., mtcars2$train)`
 
-RMSE(train_model) # Training RMSE
+`RMSE(train_model) # Training RMSE`
 
-RMSE(error) #Test RMSE `
+`RMSE(error) #Test RMSE` `
